@@ -1,8 +1,12 @@
 import React from 'react'
 
-function RecipeList() {
+function RecipeList(props) {
   return (
-    <div>RecipeList</div>
+    <div>
+      <h2>`We found ___{props.length} for You:`</h2>
+      RecipeList
+
+    </div>
   )
 }
 

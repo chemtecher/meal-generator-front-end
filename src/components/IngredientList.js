@@ -3,7 +3,7 @@ import Ingredient from './Ingredient'
 
 function IngredientList(props) {
   // destructuring props to use variable names vs props.variable
-  const{ingredList, setIngredList, deleteIngredient, clearIngredients} = props;
+  const{ingredList, setIngredList, deleteIngredient, clearIngredients, findRecipes} = props;
   const [ingredInput, setIngredInput] = useState("")
   // const [ingredList, setIngredList] = useState([])
   
@@ -76,9 +76,14 @@ function IngredientList(props) {
     </div>
       {ingredElements}
       <button 
-      className="button find-recipes"
-      onClick={clearIngredients}
-      >Clear Ingredients  
+        className="button find-recipes"
+        onClick={findRecipes}
+        >Find Me Recipes 
+      </button>
+      <button 
+        className="button clear-ingredients"
+        onClick={clearIngredients}
+        >Clear Ingredients  
       </button>
     </div>
   )

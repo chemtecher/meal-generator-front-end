@@ -17,6 +17,10 @@ const clearIngredients = () => {
   setIngredList([])
 }
 
+const findRecipes = () => {
+  console.log("Here is where we make API calls")
+}
+
 const recipeList = recipeData.map(recipe => {
   return(
       <RecipeList 
@@ -36,10 +40,11 @@ const recipeList = recipeData.map(recipe => {
         setIngredList={setIngredList} 
         deleteIngredient={deleteIngredient}
         clearIngredients={clearIngredients}
+        findRecipes={findRecipes}
       />
-      <div>
+      {/* <div>
         {recipeList}
-      </div>
+      </div> */}
     </main>
   );
 }
