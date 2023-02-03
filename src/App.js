@@ -1,8 +1,9 @@
 import {useState} from "react";
 import IngredientList from "./components/IngredientList";
+import RecipeList from "./components/RecipeList";
+
 
 function App() {
-
 const [ingredList, setIngredList] = useState([])
 const deleteIngredient = (id) => {
   setIngredList(prevIngredList => {
@@ -25,7 +26,7 @@ const deleteIngredient = (id) => {
   return (
     <main className="App">
       <IngredientList ingredList={ingredList} setIngredList={setIngredList} deleteIngredient={deleteIngredient}/>
-      {/* {recipeList} */}
+      <RecipeList />
     </main>
   );
 }

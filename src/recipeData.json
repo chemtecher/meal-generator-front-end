@@ -1,0 +1,73 @@
+[
+    {
+        "image": "https://spoonacular.com/recipeImages/632527-312x231.jpg",
+        "recipe_id": 632527,
+        "recipe_url": "http://www.foodista.com/recipe/MF3HXQC4/apple-cupcakes",
+        "time": 45,
+        "title": "Apple Cupcakes"
+    },
+    {
+        "image": "https://spoonacular.com/recipeImages/716433-312x231.jpg",
+        "recipe_id": 716433,
+        "recipe_url": "http://fullbellysisters.blogspot.com/2011/04/easiest-breakfast-ever-sunny-fruit.html",
+        "time": 45,
+        "title": "Easiest Breakfast Ever: Sunny Fruit Parfait"
+    },
+    {
+        "image": "https://spoonacular.com/recipeImages/662665-312x231.jpg",
+        "recipe_id": 662665,
+        "recipe_url": "http://www.foodista.com/recipe/PXSGNFC6/swiss-bircher-muesli",
+        "time": 45,
+        "title": "Swiss Bircher Muesli"
+    },
+    {
+        "image": "https://spoonacular.com/recipeImages/634834-312x231.jpg",
+        "recipe_id": 634834,
+        "recipe_url": "http://www.foodista.com/recipe/FW7HKZQW/benedictine-yogurt-cake",
+        "time": 45,
+        "title": "Benedictine Yogurt Cake"
+    },
+    {
+        "image": "https://spoonacular.com/recipeImages/73420-312x231.jpg",
+        "recipe_id": 73420,
+        "recipe_url": "http://www.foodista.com/recipe/GX7P8CY8/apple-or-peach-strudel",
+        "time": 16,
+        "title": "Apple Or Peach Strudel"
+    },
+    {
+        "image": "https://spoonacular.com/recipeImages/642287-312x231.jpg",
+        "recipe_id": 642287,
+        "recipe_url": "https://www.foodista.com/recipe/5SLKJT3S/eggplant-fries-with-tzatziki-sauce",
+        "time": 45,
+        "title": "Eggplant Fries with Tzatziki Sauce"
+    },
+    {
+        "image": "https://spoonacular.com/recipeImages/662895-312x231.jpg",
+        "recipe_id": 662895,
+        "recipe_url": "http://www.foodista.com/recipe/V5BRR7XP/tarte-aux-pommes",
+        "time": 45,
+        "title": "Tarte aux Pommes"
+    },
+    {
+        "image": "https://spoonacular.com/recipeImages/665537-312x231.jpg",
+        "recipe_id": 665537,
+        "recipe_url": "https://www.foodista.com/recipe/ZRS4JSSP/yoghurt-honey-madeleines",
+        "time": 45,
+        "title": "Yoghurt Honey Madeleines"
+    },
+    {
+        "image": "https://spoonacular.com/recipeImages/157103-312x231.jpg",
+        "recipe_id": 157103,
+        "recipe_url": "http://spoonacular.com/-1381771441390",
+        "time": 30,
+        "title": "Apple Cinnamon Blondies"
+    },
+    {
+        "image": "https://spoonacular.com/recipeImages/643119-312x231.jpg",
+        "recipe_id": 643119,
+        "recipe_url": "https://www.foodista.com/recipe/5NG5NHRM/flourless-apple-macadamia-cookies",
+        "time": 45,
+        "title": "Flourless Apple Macadamia Cookies"
+    }
+ ]
+ 

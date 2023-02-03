@@ -50,14 +50,6 @@ function IngredientList(props) {
         deleteIngredient={deleteIngredient}
         ingredient={ingredient}
       />
-      {/* <h3>{ingredient}</h3> */}
-      {/* <button
-        id={}
-        value={ingredient}
-        className="ingredient-delete-button"
-        onClick={deleteIngredient}
-        >X {ingredient}
-      </button> */}
     </div>
   )
   
@@ -79,7 +71,10 @@ function IngredientList(props) {
       onClick={getIngredientsList}
       >Submit
     </button>
-    {ingredElements}
+    <div>
+      {ingredElements}
+    </div>
+      
     </div>
   )
 }
