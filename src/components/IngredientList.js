@@ -72,6 +72,7 @@ function IngredientList(props) {
       >Submit
     </button>
     <div>
+      <h3>Ingredient(s) List:</h3>
       {ingredElements}
     </div>
       
