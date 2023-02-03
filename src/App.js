@@ -1,7 +1,7 @@
 import {useState} from "react";
 import IngredientList from "./components/IngredientList";
 import RecipeList from "./components/RecipeList";
-
+import Randomizer from "./components/Randomizer";
 
 function App() {
 const [ingredList, setIngredList] = useState([])
@@ -22,6 +22,10 @@ const findRecipes = () => {
   console.log("Here is where we make API calls")
 }
 
+const getRandomRecipes = () => {
+  console.log("get random recipes list")
+}
+
 
   return (
     <main className="App">
@@ -34,6 +38,7 @@ const findRecipes = () => {
       />
       
       <RecipeList />
+      <Randomizer getRandomRecipes={getRandomRecipes} />
     </main>
   );
 }

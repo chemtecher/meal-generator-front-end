@@ -1,14 +1,14 @@
 import React from 'react'
 
-function Randomizer() {
+function Randomizer(props) {
 
-
+  
   return (
     <div>Randomizer
       <button
       className="button random-recipes"
-      onClick={getRandomRecipes}
-      >Submit
+      onClick={props.getRandomRecipes}
+      >Get Random Recipes!
     </button>
 
     </div>
