@@ -41,8 +41,6 @@ function IngredientList(props) {
   // }
   console.log(ingredList)
 
-
-  
   const ingredElements = ingredList.map((ingredient, index) => 
   <div key={index}>
       <Ingredient
@@ -53,8 +51,6 @@ function IngredientList(props) {
     </div>
   )
   
-    
-    
     return (
     <div>
       <h3>Ingredients:</h3>

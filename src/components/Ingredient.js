@@ -5,7 +5,6 @@ function Ingredient(props) {
     <div>
       <span onClick={()=>props.deleteIngredient(props.id)}>X </span>
       <span>{props.ingredient}</span>
-
     </div>
   )
 }

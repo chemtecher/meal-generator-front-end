@@ -1,10 +1,11 @@
 import {useState} from "react";
 import IngredientList from "./components/IngredientList";
 import RecipeList from "./components/RecipeList";
-import recipeData from "./recipeData.json"
+
 
 function App() {
 const [ingredList, setIngredList] = useState([])
+
 
 const deleteIngredient = (id) => {
   setIngredList(prevIngredList => {
@@ -21,17 +22,6 @@ const findRecipes = () => {
   console.log("Here is where we make API calls")
 }
 
-const recipeList = recipeData.map(recipe => {
-  return(
-      <RecipeList 
-          key={recipe.recipe_id}
-          // passing the entire prop object (recipe from .map()) 
-          // to an instance of the Recipe component
-          recipe={recipe}
-      />
-  )
-})
-
 
   return (
     <main className="App">
@@ -42,9 +32,8 @@ const recipeList = recipeData.map(recipe => {
         clearIngredients={clearIngredients}
         findRecipes={findRecipes}
       />
-      {/* <div>
-        {recipeList}
-      </div> */}
+      
+      <RecipeList />
     </main>
   );
 }
